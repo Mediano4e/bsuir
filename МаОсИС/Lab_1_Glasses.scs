@@ -1,0 +1,33 @@
+concept_glasses 
+
+      => nrel_main_idtf:
+      [Очки]
+      (* <- lang_ru;;*);
+      [Glasses]
+      (* <- lang_en;;*);
+
+      <- optical_instruments_set (* <- sc_node_class;; *);
+
+      <= nrel_sc_text_translation:...
+      (*
+            <- definition;;
+            -> [Очки́ — самый распространённый из оптических приборов, предназначенный 
+            для коррекции человеческого зрения при оптических несовершенствах глаза] (* <- lang_ru;; *);;
+      *);
+
+      => nrel_components:...
+            (*
+                  <- sc_node_tuple;;
+                  -> concept_lenses (* <- details_set (*<- sc_node_class;;*);; *);;
+                  -> concept_frame (* <- details_set;; *);;
+                  -> concept_temples (* <- details_set;; *);;
+            *);
+
+      => nrel_appointment: 
+            vision_correction (* <- medical_operation_set (* <- sc_node_class;; *);; *);
+
+      => nrel_place_of_invention: 
+            Italy (* <- countries_set (*<- sc_node_class;; *);; *);
+
+      => nrel_time_of_first_appearance: 
+            XIII_c. (* <- time_period_set (*<- sc_node_class;; *);; *);;

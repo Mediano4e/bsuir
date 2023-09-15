@@ -1,0 +1,101 @@
+section_subject_domain_of_optical_instruments
+
+    => nrel_main_idtf:
+    [Раздел. Предметная область оптических приборов]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of optical insruments]
+    (* <- lang_en;;*);
+
+    <= nrel_section_decomposition:...
+    (*
+        <- sc_node_tuple;;
+        <- section_subject_domain_of_ophthalmic_optical_instruments;;
+        <- section_subject_domain_of_navigation_optical_instruments;;
+        <- section_subject_domain_of_military_optical_instruments;;
+        <- section_subject_domain_of_photographic_optical_instruments;;
+        <- section_subject_domain_of_filming_optical_instruments;;
+        <- section_subject_domain_of_film_projection_optical_instruments;;
+        <- section_subject_domain_of_projection_optical_instruments;;
+        <- section_subject_domain_of_optical_control_instruments;;
+        <- section_subject_domain_of_astronomical_optical_instruments;;
+        <- section_subject_domain_of_magnifying_glasses;;
+        <- section_subject_domain_of_microscopes;;
+        <- section_subject_domain_of_glasses;;
+        <- section_subject_domain_of_mirrors;;
+        <- section_subject_domain_of_colorimetric_optical_instruments;;
+        <- section_subject_domain_of_spectral_optical_instruments;;
+        <- section_subject_domain_of_lighting_optical_instruments;;
+        <- section_subject_domain_of_beacon_optical_devices;;
+        <- section_subject_domain_of_light_signal_optical_instruments;;
+    *);
+
+    -> rrel_key_sc_element: 
+        concept_lense;
+        concept_reflective_element;
+        concept_refractive_element;
+        nrel_image_enlargement;
+        nrel_image_reduction;
+        nrel_increase_of_image_quality;
+        nrel_reduction_of_image_quality;
+        nrel_light_refraction;
+
+    <- non_atomic_section;;
+
+section_subject_domain_of_optical_instruments
+    = [*
+        section_subject_domain_of_optical_instruments
+
+            => nrel_main_idtf:
+            [Раздел. Предметная область оптических приборов]
+            (* <- lang_ru;;*);
+            [Section. Subject domain of optical insruments]
+            (* <- lang_en;;*);
+
+            => nrel_private_subject_domain:
+                subject_domain_of_ophthalmic_optical_instruments;
+                subject_domain_of_navigation_optical_instruments;
+                subject_domain_of_military_optical_instruments;
+                subject_domain_of_photographic_optical_instruments;
+                subject_domain_of_filming_optical_instruments;
+                subject_domain_of_film_projection_optical_instruments;
+                subject_domain_of_projection_optical_instruments;
+                subject_domain_of_optical_control_instruments;
+                subject_domain_of_astronomical_optical_instruments;
+                subject_domain_of_magnifying_glasses;
+                subject_domain_of_microscopes;
+                subject_domain_of_glasses;
+                subject_domain_of_mirrors;
+                subject_domain_of_colorimetric_optical_instruments;
+                subject_domain_of_spectral_optical_instruments;
+                subject_domain_of_lighting_optical_instruments;
+                subject_domain_of_beacon_optical_devices;
+                subject_domain_of_light_signal_optical_instruments;
+
+            <= nrel_private_subject_domain:
+                subject_domain_of_optical_instruments;
+
+            -> rrel_maximum_object_research_class:
+                concept_optical_instrument;
+
+            -> rrel_non_maximum_object_research_class:
+                concept_lense;
+                concept_reflective_element;
+                concept_refractive_element;
+
+            -> rrel_researched_relation:
+                nrel_image_enlargement;
+                nrel_image_reduction;
+                nrel_increase_of_image_quality;
+                nrel_reduction_of_image_quality;
+                nrel_light_refraction;
+
+            <- rrel_subject_domain:
+                concept_lense;
+                concept_reflective_element;
+                concept_refractive_element;
+                nrel_image_enlargement;
+                nrel_image_reduction;
+                nrel_increase_of_image_quality;
+                nrel_reduction_of_image_quality;
+                nrel_light_refraction;;
+    *];;
