@@ -9,92 +9,92 @@ section_subject_domain_of_optical_instruments
     <= nrel_section_decomposition:...
     (*
         <- sc_node_tuple;;
-        <- section_subject_domain_of_ophthalmic_optical_instruments 
+        -> section_subject_domain_of_ophthalmic_optical_instruments 
             (* 
                 <- sc_node_struct;;
                 => nrel_main_idtf: [Раздел. Предметная область офтальмологических оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_navigation_optical_instruments 
+        -> section_subject_domain_of_navigation_optical_instruments 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область навигационных оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_military_optical_instruments 
+        -> section_subject_domain_of_military_optical_instruments 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область военных оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_photographic_optical_instruments 
+        -> section_subject_domain_of_photographic_optical_instruments 
             (* 
                 <-sc_node_struct;;  
                 => nrel_main_idtf: [Раздел. Предметная область фотографических оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_filming_optical_instruments 
+        -> section_subject_domain_of_filming_optical_instruments 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область кинографических оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_film_projection_optical_instruments 
+        -> section_subject_domain_of_film_projection_optical_instruments 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область кинопроекционных оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_projection_optical_instruments 
+        -> section_subject_domain_of_projection_optical_instruments 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область проекционных оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_optical_control_instruments 
+        -> section_subject_domain_of_optical_control_instruments 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область измерительных оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_astronomical_optical_instruments 
+        -> section_subject_domain_of_astronomical_optical_instruments 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область астрономических оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_magnifying_glasses 
+        -> section_subject_domain_of_magnifying_glasses 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область луп] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_microscopes 
+        -> section_subject_domain_of_microscopes 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область микроскопов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_glasses 
+        -> section_subject_domain_of_glasses 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область очков] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_mirrors 
+        -> section_subject_domain_of_mirrors 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область зеркал] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_colorimetric_optical_instruments 
+        -> section_subject_domain_of_colorimetric_optical_instruments 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область колометрических оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_spectral_optical_instruments   
+        -> section_subject_domain_of_spectral_optical_instruments   
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область спектровых оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_lighting_optical_instruments 
+        -> section_subject_domain_of_lighting_optical_instruments 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область осветительных оптических приборов] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_beacon_optical_devices 
+        -> section_subject_domain_of_beacon_optical_devices 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область оптических приборов маяков] (* <- lang_ru;;*);;
             *);;
-        <- section_subject_domain_of_light_signal_optical_instruments 
+        -> section_subject_domain_of_light_signal_optical_instruments 
             (* 
                 <-sc_node_struct;; 
                 => nrel_main_idtf: [Раздел. Предметная область светосигнальных оптических приборов] (* <- lang_ru;;*);;
