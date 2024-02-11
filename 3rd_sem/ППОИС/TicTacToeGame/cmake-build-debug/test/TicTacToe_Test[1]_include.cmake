@@ -1,0 +1,5 @@
+if(EXISTS "D:/Git/bsuir/Третий сем/ППОИС/TicTacToeGame/cmake-build-debug/test/TicTacToe_Test[1]_tests.cmake")
+  include("D:/Git/bsuir/Третий сем/ППОИС/TicTacToeGame/cmake-build-debug/test/TicTacToe_Test[1]_tests.cmake")
+else()
+  add_test(TicTacToe_Test_NOT_BUILT TicTacToe_Test_NOT_BUILT)
+endif()
