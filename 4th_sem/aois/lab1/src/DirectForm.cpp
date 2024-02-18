@@ -56,7 +56,7 @@ bool DirectForm::isGreater(const DirectForm &number, bool leftPriority) const {
 
 DirectForm::DirectForm() {
     resetValue(0);
-};
+}
 
 DirectForm::DirectForm(int number) {
     resetValue(number);
