@@ -1,12 +1,16 @@
 #include <iostream>
-#include "src/BinaryNumber.h"
+#include "src/DirectForm.h"
 
 int main() {
-    bitset<8> set(0b01010101);
-    cout << set << endl;
-    int number =  2147483647;
-    BinaryNumber binaryForm(number);
-    cout << "number = " << number << " = " << binaryForm << std::endl;
+    DirectForm t1, t2;
+    cout << "Enter two int nums:" << endl;
+    cin >> t1 >> t2;
+    if (t1 > t2)
+        cout << t1 << " > " << t2 << endl;
+    else if (t1 < t2)
+        cout << t1 << " < " << t2 << endl;
+    else
+        cout << t1 << " = " << t2 << endl;
 
     return 0;
 }

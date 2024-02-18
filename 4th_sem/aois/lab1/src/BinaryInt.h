@@ -8,19 +8,15 @@
 using namespace std;
 
 class BinaryInt {
-private:
+protected:
     bitset<32> bitSequence_;
-public:
-    virtual int getIntBack() = 0;
 
-    virtual ostream& operator<<(ostream& os) = 0;
-};
-
-class A : public BinaryInt{
-private:
+    virtual bitset<32> convertNumber(int number) = 0;
 
 public:
-
+    void resetValue(int number);
+    virtual string toString();
+    virtual int toInt() = 0;
 };
 
 #endif
