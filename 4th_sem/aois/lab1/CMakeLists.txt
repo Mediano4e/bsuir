@@ -12,7 +12,6 @@ include_directories(
 file(GLOB_RECURSE SRC_FILES
         ${PROJECT_SOURCE_DIR}/src/*.cpp
         ${PROJECT_SOURCE_DIR}/src/*.h
-        main.cpp
 )
 
 if(CMAKE_CURRENT_SOURCE_DIR STREQUAL CMAKE_SOURCE_DIR)
@@ -27,4 +26,5 @@ endif()
 add_executable(${PROJECT_NAME}
         ${SRC_FILES}
         ${RELATED_FILES}
+        main.cpp
 )
